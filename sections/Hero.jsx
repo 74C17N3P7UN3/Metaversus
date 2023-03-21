@@ -32,10 +32,10 @@ const Hero = () => (
             variants={slideIn("right", "tween", 0.2, 1)}
             className="relative w-full md:-mt-[20px] -mt-[12px]"
          >
-            <img src="/cover.png" alt="cover" className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] rounded-bl-[50px] -top-[20px] z-10 relative" />
+            <img src="/cover.webp" alt="cover" className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] rounded-bl-[50px] -top-[20px] z-10 relative" />
 
             <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-               <img src="/stamp.png" alt="stamp" className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain" />
+               <img src="/stamp.webp" alt="stamp" className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain" />
             </div>
          </motion.div>
       </motion.div>
