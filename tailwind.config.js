@@ -1,12 +1,12 @@
-/** @type {import("tailwindcss").Config} */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
    content: [
-      "./app/**/*.{html,js,jsx}",
-      "./components/**/*.{html,js,jsx}",
-      "./sections/**/*.{html,js,jsx}",
-      "./styles/**/*.{js,jsx}",
+      "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+      "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+      "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+      "./src/sections/**/*.{js,ts,jsx,tsx,mdx}",
+      "./src/styles/**/*.{js,ts,jsx,tsx,mdx}",
    ],
-   mode: "jit",
    theme: {
       extend: {
          colors: {
@@ -19,4 +19,4 @@ module.exports = {
       },
    },
    plugins: [],
-};
+}
